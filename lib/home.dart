@@ -18,7 +18,9 @@ class _HomeState extends State<Home> {
         setState(() => count++);
       },
       onDoubleTap: () {
-        setState(() => count--);
+        if(count > 0) {
+          setState(() => count--);
+        }
       },
       child: Scaffold(
         body: Stack(
