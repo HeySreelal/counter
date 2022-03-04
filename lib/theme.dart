@@ -104,4 +104,12 @@ class TaylorsTheme {
     ),
   );
 
+  static Gradient gradient(Color from, Color to) => LinearGradient(
+        begin: Alignment.topCenter,
+        end: Alignment.bottomCenter,
+        colors: [
+          from,
+          to,
+        ],
+      );
 }
