@@ -1,5 +1,5 @@
 name: counter
-description: A new Flutter project.
+description: Simple counter app.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -31,6 +31,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   google_fonts: ^2.3.1
+  fluttertoast: ^8.0.9
 
 dev_dependencies:
   flutter_test:
